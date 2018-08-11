@@ -1,0 +1,29 @@
+{
+  "name": "pdf-field-finder",
+  "version": "0.0.1",
+  "description": "Experimenting with finding fields in a pdf",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcclung/pdf-field-finder.git"
+  },
+  "keywords": [
+    "PDF",
+    "Fields",
+    "Forms"
+  ],
+  "author": "Dylan McClung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmcclung/pdf-field-finder/issues"
+  },
+  "homepage": "https://github.com/dmcclung/pdf-field-finder#readme",
+  "devDependencies": {
+    "typescript": "^3.0.1",
+    "yarn": "^1.9.4"
+  }
+}
