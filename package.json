@@ -2,9 +2,9 @@
   "name": "custom-pdf-example",
   "version": "0.0.1",
   "description": "Example of creating a custom pdf",
-  "main": "dist/App.js",
+  "main": "src/App.js",
   "scripts": {
-    "start": "tsc && node dist/App.js"
+    "start": "node src/App.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,8 @@
     "url": "https://github.com/dmcclung/pdf-field-finder/issues"
   },
   "homepage": "https://github.com/dmcclung/pdf-field-finder#readme",
-  "devDependencies": {
-    "@types/node": "^10.5.8",
-    "typescript": "^3.0.1",
-    "yarn": "^1.9.4"
+  "dependencies": {
+    "moment": "^2.22.2",
+    "pdfmake": "^0.1.37"
   }
 }
